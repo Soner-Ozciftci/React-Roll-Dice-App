@@ -3,7 +3,11 @@ import Dice from "./Dice";
 import "./RollDice.css";
 
 function RollDice() {
-  return <div>RollDice</div>;
+  return (
+  <>
+  <Dice face="one"/>
+  </>
+  )
 }
 
 export default RollDice;
