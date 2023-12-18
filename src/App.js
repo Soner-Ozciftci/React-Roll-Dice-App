@@ -1,5 +1,5 @@
 import './App.css';
-import RollDice './components/Rolldice'
+import RollDice './components/RollDice'
 function App() {
   return (
     <div className="App">
