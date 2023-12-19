@@ -1,9 +1,7 @@
 import React from "react";
-import './Dice.css'
+import "./Dice.css";
 
-function Dice({face}) {
-  return (
-    <i className={`dice fas fa-dice-${face}`}></i>
-  )
+function Dice({ face }) {
+  return <i className={`dice fas fa-dice-${face}`}></i>;
 }
-export default dice;
+export default Dice;
