@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Dice from "./Dice";
 import "./RollDice.css";
 
-function RollDice() {
+function RollDice({sides}) {
+
   const [state, setState] = useState({
     dice1: "one",
     dice2: "three",
@@ -11,6 +12,12 @@ function RollDice() {
   });
 
 const {dice1,dice2,rolling,totalScore} = state;
+
+const roll = () => {
+ const newDice1 = sides[Math.floor(Math.random() *sides.length)]
+ const newDice2 = sides[Math.floor(Math.random() *sides.length)]
+
+}
 
   return (
     <>
