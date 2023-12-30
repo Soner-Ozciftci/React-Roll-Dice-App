@@ -35,8 +35,8 @@ setTimeout(()=>{
     <>
     <div className="roll-dice">
       <div className="rollDice-container">
-      <Dice face="one" />
-      <Dice face="three" />
+      <Dice face={dice1} />
+      <Dice face={dice2} />
       </div>
       <button onClick={roll} disabled={rolling}>
        {rolling ? "Rolling..." : "Roll Dice"}
