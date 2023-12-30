@@ -25,6 +25,10 @@ setState({
   rolling:true,
   totalScore:score1[0] + score2[0]
 })
+setTimeout(()=>{
+  setState((prevState)=> ({...prevState,rolling : false}))
+},1000)
+
 }
 
   return (
